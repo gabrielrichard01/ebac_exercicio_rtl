@@ -16,7 +16,7 @@ describe('Teste para o componente PostComment', () => {
                 value: 'Comentário adicionado via testes',
             }
         });
-        fireEvent.click(screen.getByTestId(comment-button))
+        fireEvent.click(screen.getByTestId('comment-button'))
 
         fireEvent.change(screen.getByTestId('comment-textarea'), {
             target: {
